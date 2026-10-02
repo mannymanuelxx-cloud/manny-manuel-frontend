@@ -1,4 +1,7 @@
 :root {
+  --mono: 'IBM Plex Mono', monospace;
+  --display: 'Sora', sans-serif;
+  font-family: 'Manrope', sans-serif;
   --ink: #26323a;
   --muted: #65737d;
   --line: #d6dde2;
@@ -9,6 +12,35 @@
   --red: #b33f3f;
   color: var(--ink);
   background: var(--paper);
+}
+
+body,
+button,
+input,
+textarea {
+  font-family: 'Manrope', sans-serif;
+}
+
+.brand-lockup,
+.auth-card h2,
+.art-copy h1,
+.page-heading h1,
+.catalog-heading h2,
+.dialog-head h2,
+.empty-state strong {
+  font-family: 'Sora', sans-serif;
+}
+
+.eyebrow,
+.side-caption,
+.metric-label,
+.topbar-meta,
+.auth-topline,
+.auth-footer,
+.art-index,
+.page-footer,
+.table-footer > span:last-child {
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 body {
